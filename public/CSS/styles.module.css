@@ -1,0 +1,25 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeInAnimation {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes scaleButton {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.scaleButtonAnimation {
+  animation: scaleButton 1s ease-in-out forwards;
+}
