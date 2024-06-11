@@ -1,5 +1,5 @@
 'use client'
-import Footer from '@/Components/Footer'
+import Footer from '@/Components/Footer/Footer'
 import Header from '@/Components/Header'
 import MainContent from '@/Components/MainContent'
 import TravelSites from '@/Components/TravelSites'

@@ -1,0 +1,98 @@
+/* Default styles */
+.image-container {
+  margin: 0 5px;
+}
+
+.image-container .social-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container .social-icon:hover {
+  transform: rotateY(180deg);
+}
+
+/* Tablet styles (including iPad Pro) */
+@media (max-width: 1026px) {
+  .footer-row {
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .footer-column {
+    width: 80% !important;
+    margin-bottom: 1rem;
+  }
+
+  .footer-column img {
+    width: 80% !important;
+    height: auto !important;
+  }
+
+  .footer-column p {
+    font-size: 18px !important;
+  }
+
+  .footer-column .footerItems {
+    text-align: center !important;
+    font-size: 18px !important;
+  }
+
+  .image-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin: 0 !important;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 576px) {
+  .footer-container {
+    padding: 1rem !important;
+  }
+
+  .footer-column {
+    width: 100% !important;
+  }
+
+  .footer-column img {
+    width: 70% !important;
+    height: 25% !important;
+  }
+
+  .footer-column p {
+    font-size: 16px !important;
+  }
+
+  .footer-column .footerItems {
+    text-align: center !important;
+  }
+
+  .footer-column .footer-contact-info {
+    width: 100% !important;
+  }
+}
+
+/* Realme 6i and iPhone SE specific styles */
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 0.5rem !important;
+  }
+
+  .footer-column img {
+    width: 60% !important;
+    height: 20% !important;
+  }
+
+  .footer-column p {
+    font-size: 14px !important;
+  }
+
+  .footer-column .footerItems {
+    font-size: 14px !important;
+  }
+
+  .footer-column .footer-contact-info {
+    width: 100% !important;
+    font-size: 14px !important;
+  }
+}
