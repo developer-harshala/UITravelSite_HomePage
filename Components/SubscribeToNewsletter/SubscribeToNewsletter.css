@@ -16,7 +16,7 @@
 
 .sideImg {
   position: absolute;
-  top: 333%;
+  top: 328%;
   right: 0;
   height: 220px;
 }
@@ -29,7 +29,7 @@
 .newsletter-inner {
   background-color: rgba(250, 205, 73, 0.08);
   padding: 20px;
-  min-height: 410px; /* Adjust to minimum height */
+  min-height: 410px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +53,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%; /* Ensure it takes full width */
+  width: 100%;
   margin-top: 2rem;
 }
 
@@ -84,8 +84,10 @@
 }
 
 .violetBtn:hover {
-  background-color: #4c3fa8;
-  border-color: #4c3fa8;
+  background-color: #ff0000;
+  border-color: #ff0000;
+  font-size: 1.2rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 /* Tablet styles */
@@ -124,9 +126,9 @@
   }
 
   .email-container {
-    flex-direction: column; /* Adjusted for better layout */
+    flex-direction: column;
     align-items: center;
-    margin-top: 1rem; /* Add margin to separate from text */
+    margin-top: 1rem;
   }
 
   .email-icon {
@@ -155,7 +157,9 @@
   }
 
   .graphicImg {
-    width: 60px;
+    width: 65px;
+    left: 2rem;
+    top: 1.4rem;
   }
 
   .pinkHeader {

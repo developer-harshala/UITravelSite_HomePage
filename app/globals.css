@@ -1,13 +1,23 @@
-body {
-  overflow-x: hidden;
+* {
+  box-sizing: border-box;
 }
 
+html,
 body {
+  width: 100%;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+.container-fluid,
+.row,
+.col-lg-2,
+.col-lg-6,
+.col-lg-4 {
+  max-width: 100%;
+}
 /* for font
 -apple-system, BlinkMacSystemFont: For macOS and iOS.
 Segoe UI: For Windows.
@@ -33,7 +43,7 @@ Emoji fonts: To ensure emojis display correctly across different platforms. */
   font-weight: 700;
 }
 
-.violetBtn {
+.signUpBtn {
   width: 45%;
   height: 100%;
   padding: 8px;

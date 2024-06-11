@@ -41,9 +41,7 @@ const Header = () => {
           >
             Log in
           </button>
-          <button className={`violetBtn ${styles.scaleButtonAnimation}`}>
-            Sign Up
-          </button>
+          <button className='signUpBtn'>Sign Up</button>
         </div>
       </div>
     </div>

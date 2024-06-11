@@ -24,8 +24,8 @@
   }
 
   .footer-column img {
-    width: 80% !important;
-    height: auto !important;
+    width: 75% !important;
+    margin-bottom: 1rem;
   }
 
   .footer-column p {
