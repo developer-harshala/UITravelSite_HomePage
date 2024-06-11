@@ -4,7 +4,7 @@ import Header from '@/Components/Header'
 import MainContent from '@/Components/MainContent'
 import TravelSites from '@/Components/TravelSites'
 import ServiceCategories from '@/Components/ServiceCategories'
-import SubscribeToNewsletter from '@/Components/SubscribeToNewsletter'
+import SubscribeToNewsletter from '@/Components/SubscribeToNewsletter/SubscribeToNewsletter'
 import TravelPoint from '@/Components/TravelPoint'
 
 const page = () => {

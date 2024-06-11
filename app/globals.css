@@ -79,30 +79,8 @@ Emoji fonts: To ensure emojis display correctly across different platforms. */
   }
 }
 
-/* for subscribe to newsletter */
-
-.newsletter-container {
+/* .newsletter-container {
   position: relative;
   height: 80vh;
   overflow-x: hidden;
-}
-
-.graphicImg {
-  position: absolute;
-  top: 2rem;
-  left: 2.5rem;
-  width: 100px;
-  height: auto;
-}
-
-.sideImg {
-  position: absolute;
-  top: 345%;
-  right: 0;
-  height: 220px;
-}
-
-.newsletter-content {
-  text-align: center;
-  padding: 3rem;
-}
+} */
