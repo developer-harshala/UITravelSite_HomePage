@@ -1,0 +1,64 @@
+/* Default styles for desktop */
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.col-12 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles for tablets (width 1026px and below) */
+@media (max-width: 1026px) {
+  .col-12 {
+    justify-content: center;
+  }
+
+  .img-fluid {
+    flex: 0 0 45%;
+    margin: 2.5% 0;
+    margin-right: 0 !important;
+  }
+
+  .img-fluid:first-child {
+    width: 10%;
+    margin: 2.5% 0;
+  }
+
+  .img-fluid1 {
+    display: none;
+  }
+}
+
+/* Styles for mobile (width 576px and below) */
+@media (max-width: 576px) {
+  .col-12 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-fluid {
+    width: 70%;
+    margin: 5% 0;
+    margin-right: 0 !important;
+  }
+
+  .img-fluid:first-child {
+    width: 20%;
+  }
+
+  .img-fluid1 {
+    display: none;
+  }
+}

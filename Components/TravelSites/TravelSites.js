@@ -1,4 +1,5 @@
 import React from 'react'
+import './TravelSites.css'
 
 const TravelSites = () => {
   return (
@@ -8,7 +9,7 @@ const TravelSites = () => {
           <img
             src='/images/OBJECTS.png'
             alt='OBJECTS'
-            className='img-fluid'
+            className='img-fluid1'
             style={{ alignSelf: 'flex-start', width: '3%' }}
           />
           <img
