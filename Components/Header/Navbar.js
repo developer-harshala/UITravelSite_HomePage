@@ -1,12 +1,13 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
+import './Styles.css'
 
 const Navbar = () => {
   return (
     <>
       <div>
-        <div className='d-flex justify-content-evenly'>
+        <div className='d-flex justify-content-evenly navbar-links'>
           <Link
             href='/'
             style={{

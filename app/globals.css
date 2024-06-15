@@ -43,18 +43,6 @@ Emoji fonts: To ensure emojis display correctly across different platforms. */
   font-weight: 700;
 }
 
-.signUpBtn {
-  width: 45%;
-  height: 100%;
-  padding: 8px;
-  border-radius: 50px;
-  background-color: #5d50c6;
-  border: 1px solid #5d50c6;
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
 .watchBtn {
   width: 34%;
   height: 10%;

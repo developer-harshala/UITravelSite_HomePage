@@ -1,36 +1,26 @@
 import React from 'react'
 import Navbar from './Navbar'
-import styles from '../public/CSS/styles.module.css'
+import './styles.css' // Ensure the correct path to the CSS file
 
 const Header = () => {
   return (
-    <div
-      className={`container ${styles.fadeInAnimation}`}
-      style={{ padding: '12px' }}
-    >
+    <div className='container fadeInAnimation'>
       <div className='row align-items-center'>
-        <div
-          className={`col-lg-2 col-md-3 col-sm-4 col-6 ${styles.fadeInAnimation}`}
-        >
+        <div className='col-lg-2 col-md-3 col-sm-4 col-6 fadeInAnimation'>
           <img
             src='/images/Frame 1.png'
             alt='Logo'
-            className={styles.scaleButtonAnimation}
+            className='scaleButtonAnimation'
             style={{ padding: '10px', maxWidth: '100%' }}
           />
         </div>
-        <div
-          className={`col-lg-6 col-md-5 col-sm-4 col-6 ${styles.fadeInAnimation}`}
-        >
+        <div className='col-lg-6 col-md-5 col-sm-4 col-6 fadeInAnimation'>
           <Navbar />
         </div>
-        <div
-          className={`col-lg-4 col-md-4 col-sm-4 col-12 d-flex justify-content-between mt-2 ${styles.fadeInAnimation}`}
-        >
+        <div className='col-lg-4 col-md-4 col-sm-4 col-12 d-flex justify-content-between fadeInAnimation'>
           <button
-            className={`btn ${styles.scaleButtonAnimation}`}
+            className='btn scaleButtonAnimation'
             style={{
-              width: '45%',
               height: '100%',
               padding: '8px',
               borderRadius: '50px',
@@ -41,7 +31,7 @@ const Header = () => {
           >
             Log in
           </button>
-          <button className='signUpBtn'>Sign Up</button>
+          <button className='signUpBtn scaleButtonAnimation'>Sign Up</button>
         </div>
       </div>
     </div>
