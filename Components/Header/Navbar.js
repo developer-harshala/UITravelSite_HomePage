@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
-import './Styles.css'
+import './styles.css'
 
 const Navbar = () => {
   return (

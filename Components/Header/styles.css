@@ -1,4 +1,3 @@
-/* Existing styles */
 .container {
   padding: 12px;
 }
@@ -13,6 +12,28 @@
   color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn {
+  width: 45%;
+  height: 100%;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5d50c6;
+  color: #ffffff;
+}
+
+.signUpBtn:hover {
+  background-color: #ffffff;
+  color: #5d50c6;
 }
 
 @keyframes fadeIn {
@@ -41,7 +62,7 @@
   animation: scaleButton 1s ease-in-out forwards;
 }
 
-/* Media query for tablets and mobile devices */
+/* Media query for tablets devices */
 @media (max-width: 991px) {
   .container {
     padding: 8px;
@@ -112,19 +133,59 @@
   .btn {
     font-size: 0.9rem;
     padding: 6px;
+    width: 80%;
+    margin-bottom: 10px;
   }
 
-  .btn,
   .signUpBtn {
-    width: 48%;
+    font-size: 0.9rem;
+    padding: 6px;
+    width: 80%;
   }
 
   .d-flex {
     display: flex;
     align-items: center;
+    flex-direction: column;
   }
 
   .justify-content-between {
-    justify-content: space-between !important;
+    justify-content: center !important;
+  }
+
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-links a {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.d-flex .btn,
+.d-flex .signUpBtn {
+  margin-left: 10px;
+}
+
+.d-flex .btn:first-child,
+.d-flex .signUpBtn:first-child {
+  margin-left: 0;
+}
+
+@media (min-width: 992px) {
+  .btn,
+  .signUpBtn {
+    width: auto;
+    margin-left: 10px;
+  }
+
+  .d-flex .btn:first-child,
+  .d-flex .signUpBtn:first-child {
+    margin-left: 0;
   }
 }

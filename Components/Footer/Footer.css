@@ -1,4 +1,3 @@
-/* Default styles */
 .image-container {
   margin: 0 5px;
 }
@@ -11,7 +10,7 @@
   transform: rotateY(180deg);
 }
 
-/* Tablet styles (including iPad Pro) */
+/* Tablet styles */
 @media (max-width: 1026px) {
   .footer-row {
     flex-direction: column;
@@ -72,7 +71,6 @@
   }
 }
 
-/* Realme 6i and iPhone SE specific styles */
 @media (max-width: 480px) {
   .footer-container {
     padding: 0.5rem !important;

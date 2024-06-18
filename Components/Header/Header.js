@@ -1,6 +1,7 @@
+'use client'
 import React from 'react'
 import Navbar from './Navbar'
-import './styles.css' // Ensure the correct path to the CSS file
+import './styles.css'
 
 const Header = () => {
   return (
@@ -14,23 +15,11 @@ const Header = () => {
             style={{ padding: '10px', maxWidth: '100%' }}
           />
         </div>
-        <div className='col-lg-6 col-md-5 col-sm-4 col-6 fadeInAnimation'>
+        <div className='col-lg-8 col-md-5 col-sm-4 col-6 fadeInAnimation'>
           <Navbar />
         </div>
-        <div className='col-lg-4 col-md-4 col-sm-4 col-12 d-flex justify-content-between fadeInAnimation'>
-          <button
-            className='btn scaleButtonAnimation'
-            style={{
-              height: '100%',
-              padding: '8px',
-              borderRadius: '50px',
-              backgroundColor: '#FFFFFF',
-              fontSize: '1rem',
-              fontWeight: '600',
-            }}
-          >
-            Log in
-          </button>
+        <div className='col-lg-2 col-md-4 col-sm-4 col-12 d-flex justify-content-end align-items-center fadeInAnimation'>
+          <button className='btn scaleButtonAnimation'>Log in</button>
           <button className='signUpBtn scaleButtonAnimation'>Sign Up</button>
         </div>
       </div>
