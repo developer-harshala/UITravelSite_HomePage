@@ -10,7 +10,7 @@ import TravelPoint from '@/Components/TravelPoint'
 const page = () => {
   return (
     <>
-      <div style={{ padding: '10px' }}>
+      <div style={{ padding: '11px' }}>
         <Header />
         <MainContent />
         <TravelSites />
