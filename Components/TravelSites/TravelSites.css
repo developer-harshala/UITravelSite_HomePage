@@ -48,7 +48,7 @@
   }
 
   .img-fluid {
-    width: 70%;
+    width: 70% !important;
     margin: 5% 0;
     margin-right: 0 !important;
   }

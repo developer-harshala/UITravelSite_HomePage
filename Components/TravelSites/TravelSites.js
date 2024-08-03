@@ -13,22 +13,34 @@ const TravelSites = () => {
             style={{ alignSelf: 'flex-start', width: '3%' }}
           />
           <img
-            src='/images/tripadvisor.png'
+            src='/images/tripadvisor1.png'
             alt='tripadvisor'
             className='img-fluid pt-2'
+            style={{ width: '18%' }}
           />
-          <img src='/images/expedia.png' alt='expedia' className='img-fluid' />
           <img
-            src='/images/booking.com.png'
+            src='/images/expedia1.png'
+            alt='expedia'
+            className='img-fluid'
+            style={{ width: '18%' }}
+          />
+          <img
+            src='/images/booking1.jpg'
             alt='booking.com'
             className='img-fluid pt-2'
+            style={{ width: '18%' }}
           />
-          <img src='/images/airbnb.png' alt='airbnb' className='img-fluid' />
           <img
-            src='/images/rbitz.png'
+            src='/images/airbnb1.png'
+            alt='airbnb'
+            className='img-fluid'
+            style={{ width: '18%' }}
+          />
+          <img
+            src='/images/orbitz1.png'
             alt='rbitz'
             className='img-fluid pt-2'
-            style={{ marginRight: '10rem' }}
+            style={{ width: '18%' }}
           />
         </div>
       </div>
