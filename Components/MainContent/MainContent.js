@@ -1,4 +1,5 @@
 import React from 'react'
+import './MainContent.css'
 
 const MainContent = () => {
   return (
@@ -30,6 +31,7 @@ const MainContent = () => {
               <img src='/images/work 1.png' alt='OBJECTS' />
             </div>
             <p
+              className='main-heading'
               style={{
                 fontSize: '80px',
                 fontWeight: '700',
@@ -44,6 +46,7 @@ const MainContent = () => {
               of the world
             </p>
             <p
+              className='sub-heading'
               style={{
                 color: 'rgba(25, 24, 37, 0.5)',
                 fontSize: '18px',
@@ -54,7 +57,7 @@ const MainContent = () => {
               We always make our customer happy by providing as many choices as
               possible
             </p>
-            <div>
+            <div className='button-container'>
               <button
                 className='violetBtn'
                 style={{ width: '25%', height: '10%', marginRight: '1rem' }}
@@ -68,6 +71,7 @@ const MainContent = () => {
             </div>
           </div>
           <div
+            className='image-container'
             style={{
               display: 'flex',
               backgroundImage: 'url("/images/layer.png")',
@@ -84,6 +88,7 @@ const MainContent = () => {
               }}
             >
               <img
+                className='rectangle-image'
                 src='/images/Rectangle 1.png'
                 alt='Rectangle 1'
                 style={{ width: '82%', height: '48%' }}
@@ -101,6 +106,7 @@ const MainContent = () => {
                 }}
               />
               <img
+                className='rectangle-image'
                 src='/images/Rectangle 2.png'
                 alt='Rectangle 2'
                 style={{ width: '82%', height: '48%', paddingTop: '7%' }}
@@ -108,6 +114,7 @@ const MainContent = () => {
             </div>
             <div style={{ position: 'relative' }}>
               <img
+                className='rectangle-image'
                 src='/images/Rectangle 3.png'
                 alt='Rectangle 3'
                 style={{ width: '78%', paddingTop: '4rem' }}

@@ -1,0 +1,60 @@
+/* Mobile view */
+@media (max-width: 576px) {
+  .main-heading {
+    font-size: 36px !important;
+    width: 100% !important;
+    line-height: 40px !important;
+  }
+
+  .sub-heading {
+    font-size: 14px !important;
+    width: 100% !important;
+    line-height: 20px !important;
+  }
+
+  .button-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .violetBtn,
+  .watchBtn {
+    width: 60% !important;
+    margin: 0.5rem 0 !important;
+  }
+
+  .image-container {
+    display: none !important; /* Hide the second div entirely */
+  }
+}
+
+/* Tablet view */
+@media (max-width: 1024px) {
+  .main-heading {
+    font-size: 50px !important;
+    width: 100% !important;
+    line-height: 54px !important;
+  }
+
+  .sub-heading {
+    font-size: 16px !important;
+    width: 100% !important;
+  }
+
+  .button-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .violetBtn,
+  .watchBtn {
+    width: 80% !important;
+    margin: 0.5rem 0 !important;
+  }
+
+  .image-container {
+    display: none !important;
+  }
+}

@@ -1,7 +1,7 @@
 'use client'
 import Footer from '@/Components/Footer/Footer'
 import Header from '@/Components/Header/Header'
-import MainContent from '@/Components/MainContent'
+import MainContent from '@/Components/MainContent/MainContent'
 import TravelSites from '@/Components/TravelSites/TravelSites'
 import ServiceCategories from '@/Components/ServiceCategories'
 import SubscribeToNewsletter from '@/Components/SubscribeToNewsletter/SubscribeToNewsletter'

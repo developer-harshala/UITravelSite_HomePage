@@ -37,7 +37,7 @@ const TravelSites = () => {
             style={{ width: '18%' }}
           />
           <img
-            src='/images/orbitz1.png'
+            src='/images/Orbitz-logo.png'
             alt='rbitz'
             className='img-fluid pt-2'
             style={{ width: '18%' }}
